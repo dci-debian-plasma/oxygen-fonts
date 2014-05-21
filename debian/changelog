@@ -1,0 +1,23 @@
+oxygen-fonts (0.4~really0.3.96-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 21 May 2014 13:30:02 +0100
+
+oxygen-fonts (0.4-0ubuntu1~ubuntu14.04~ppa2) trusty; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 20 Feb 2014 17:45:52 +0000
+
+oxygen-fonts (0.4~git20140212-0ubuntu1) trusty; urgency=medium
+
+  * New upstream snapshot
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 12 Feb 2014 17:45:52 +0000
+
+oxygen-fonts (0.3~git20130121-0ubuntu1) raring; urgency=low
+
+  * Initial package
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 28 Feb 2012 00:29:01 +0100

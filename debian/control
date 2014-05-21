@@ -1,0 +1,13 @@
+Source: oxygen-fonts
+Section: kde
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@ubuntu.com>
+Build-Depends: debhelper (>= 9), fontforge, cmake,
+ extra-cmake-modules, qtdeclarative5-dev, pkg-kde-tools
+Standards-Version: 3.9.5
+
+Package: ttf-oxygen-font-family
+Architecture: any
+Depends: ${misc:Depends}
+Description: Oxygen font family
+ Font family for integrated use with the Plasma workspace.
