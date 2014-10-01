@@ -1,4 +1,4 @@
 version=3
-http://download.kde.org/unstable/plasma/([\d\.]+)/src/oxygen-fonts-(.*)\.tar\.xz
+http://download.kde.org/unstable/plasma/([\d\.]+)/oxygen-fonts-(.*)\.tar\.xz
 
 http://download.kde.org/stable/plasma/([\d\.]+)/oxygen-fonts-(.*)\.tar\.xz
