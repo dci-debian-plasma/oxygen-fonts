@@ -1,7 +1,7 @@
 Source: oxygen-fonts
 Section: kde
 Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@ubuntu.com>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
