@@ -15,6 +15,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/oxygen-fonts.git
 
 Package: fonts-oxygen
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: ttf-oxygen-font-family (<< 4:5.2.0-1)
 Replaces: ttf-oxygen-font-family (<< 4:5.2.0-1)
