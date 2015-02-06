@@ -1,6 +1,6 @@
 Source: oxygen-fonts
-Section: kde
-Priority: extra
+Section: fonts
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
