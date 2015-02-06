@@ -1,4 +1,4 @@
-oxygen-fonts (4:5.2.0-1~) UNRELEASED; urgency=medium
+oxygen-fonts (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -7,7 +7,7 @@ oxygen-fonts (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 14:41:21 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 15:28:42 +0100
 
 oxygen-fonts (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
