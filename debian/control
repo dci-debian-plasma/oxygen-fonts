@@ -3,12 +3,11 @@ Section: fonts
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.2.0),
                fontforge,
-               pkg-kde-tools,
-               qtdeclarative5-dev
+               pkg-kde-tools (>= 0.15.16)
 Standards-Version: 3.9.5
 
 Package: ttf-oxygen-font-family
