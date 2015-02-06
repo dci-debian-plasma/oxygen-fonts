@@ -10,8 +10,15 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.16)
 Standards-Version: 3.9.5
 
-Package: ttf-oxygen-font-family
-Architecture: any
+Package: fonts-oxygen
+Architecture: all
 Depends: ${misc:Depends}
+Breaks: ttf-oxygen-font-family (<< 4:5.2.0-1)
+Replaces: ttf-oxygen-font-family (<< 4:5.2.0-1)
 Description: Oxygen font family
- Font family for integrated use with the Plasma workspace.
+ Desktop/gui font family for integrated use with the KDE desktop.
+ .
+ The basic concept for Oxygen Font is to design a clear, legible, sans serif
+ font which would be rendered with Freetype on Linux-based devices. In addition
+ a bold weight, plus regular and bold italics, and a monospace version will be
+ made.
