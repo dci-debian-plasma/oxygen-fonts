@@ -9,6 +9,9 @@ Build-Depends: cmake,
                pkg-kde-tools,
                qtdeclarative5-dev
 Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/kde/workspace/oxygen-fonts
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/oxygen-fonts.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/oxygen-fonts.git
 
 Package: ttf-oxygen-font-family
 Architecture: any
