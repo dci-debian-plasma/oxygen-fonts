@@ -1,16 +1,15 @@
 oxygen-fonts (4:5.3.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Jonathan Riddell ]
-  * Plasma 5.3 beta
-  * new upstream release
-
-  [ Scarlett Clark ]
-  * Vivid backport
-
-  [ Jonathan Riddell ]
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 20:32:48 +0200
+
+oxygen-fonts (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:26 +0100
 
 oxygen-fonts (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
@@ -23,6 +22,17 @@ oxygen-fonts (4:5.2.1-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:46:29 -0800
+
+oxygen-fonts (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update watch file.
+  * Update copyright information.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 15:28:42 +0100
 
 oxygen-fonts (4:5.2.0-0ubuntu1) vivid; urgency=medium
 

@@ -1,20 +1,28 @@
 Source: oxygen-fonts
-Section: kde
-Priority: extra
+Section: fonts
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.2.0),
                fontforge,
-               pkg-kde-tools,
-               qtdeclarative5-dev
-Standards-Version: 3.9.5
+               pkg-kde-tools (>= 0.15.16)
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/oxygen-fonts
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/oxygen-fonts.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/oxygen-fonts.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/oxygen-fonts.git
 
-Package: ttf-oxygen-font-family
-Architecture: any
+Package: fonts-oxygen
+Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
+Breaks: ttf-oxygen-font-family (<< 4:5.3.1)
+Replaces: ttf-oxygen-font-family (<< 4:5.3.1)
 Description: Oxygen font family
- Font family for integrated use with the Plasma workspace.
+ Desktop/gui font family for integrated use with the KDE desktop.
+ .
+ The basic concept for Oxygen Font is to design a clear, legible, sans serif
+ font which would be rendered with Freetype on Linux-based devices. In addition
+ a bold weight, plus regular and bold italics, and a monospace version will be
+ made.
