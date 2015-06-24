@@ -26,3 +26,11 @@ Description: Oxygen font family
  font which would be rendered with Freetype on Linux-based devices. In addition
  a bold weight, plus regular and bold italics, and a monospace version will be
  made.
+
+Package: ttf-oxygen-font-family
+Architecture: all
+Depends: ${misc:Depends}
+Section: oldlibs
+Description: transitional package
+ The Oxygen Fonts package is renamed to fonts-oxygen, you can remove
+ this transitional package.
