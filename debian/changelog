@@ -1,3 +1,9 @@
+oxygen-fonts (4:5.3.1-0ubuntu2) wily; urgency=medium
+
+  * Add transitional
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 24 Jun 2015 15:29:53 +0200
+
 oxygen-fonts (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release
