@@ -29,7 +29,7 @@ Description: Oxygen font family
 
 Package: ttf-oxygen-font-family
 Architecture: all
-Depends: ${misc:Depends}
+Depends: fonts-oxygen, ${misc:Depends}
 Section: oldlibs
 Description: transitional package
  The Oxygen Fonts package is renamed to fonts-oxygen, you can remove

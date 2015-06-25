@@ -1,3 +1,9 @@
+oxygen-fonts (4:5.3.1-0ubuntu3) wily; urgency=medium
+
+  * Add missing depends to transitional
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 25 Jun 2015 11:50:24 +0200
+
 oxygen-fonts (4:5.3.1-0ubuntu2) wily; urgency=medium
 
   * Add transitional
