@@ -1,4 +1,4 @@
-oxygen-fonts (4:5.3.2-1~) UNRELEASED; urgency=medium
+oxygen-fonts (4:5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.2).
 
@@ -13,7 +13,9 @@ oxygen-fonts (4:5.3.2-1~) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:22:39 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:20:29 +0200
 
 oxygen-fonts (4:5.3.1-0ubuntu3) wily; urgency=medium
 
