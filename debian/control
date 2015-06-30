@@ -28,10 +28,10 @@ Description: Oxygen font family
  made.
 
 Package: ttf-oxygen-font-family
+Section: oldlibs
 Priority: extra
 Architecture: all
 Depends: fonts-oxygen, ${misc:Depends}
-Section: oldlibs
 Description: transitional package
  The Oxygen Fonts package is renamed to fonts-oxygen, you can remove
  this transitional package.
