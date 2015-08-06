@@ -1,3 +1,12 @@
+oxygen-fonts (4:5.3.2-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Fix FTBFS caused because cmake can't find qmake properly and execute
+    'qmake -query "QT_INSTALL_PLUGINS"':
+    - add qt5-qmake and qtbase-dev to build depends
+    - add 'export QT_SELECT=5' to debian/rules
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 06 Aug 2015 16:44:59 +0200
+
 oxygen-fonts (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport

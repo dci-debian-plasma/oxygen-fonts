@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+export QT_SELECT=5
+
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_install:
