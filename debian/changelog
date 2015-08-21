@@ -1,3 +1,10 @@
+oxygen-fonts (4:5.3.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add qtbase5-dev to build-depends to fix FTBFS (Closes: #796447)
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 21 Aug 2015 17:55:47 -0400
+
 oxygen-fonts (4:5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.2).
