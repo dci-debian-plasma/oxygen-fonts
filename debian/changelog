@@ -4,6 +4,25 @@ oxygen-fonts (4:5.4.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 23:36:12 +0200
 
+oxygen-fonts (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:54:34 +0100
+
+oxygen-fonts (4:5.3.95-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Fix FTBFS caused because cmake can't find qmake properly and execute
+    'qmake -query "QT_INSTALL_PLUGINS"':
+    - add qt5-qmake and qtbase-dev to build depends
+    - add 'export QT_SELECT=5' to debian/rules
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:19:15 +0200
+
 oxygen-fonts (4:5.3.2-2) unstable; urgency=medium
 
   * Team upload.
@@ -29,6 +48,27 @@ oxygen-fonts (4:5.3.2-1) unstable; urgency=medium
   [ Maximiliano Curia ]
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:20:29 +0200
+
+oxygen-fonts (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 02 Jul 2015 11:48:25 -0700
+
+oxygen-fonts (4:5.3.2-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Fix transitional fonts-oxygen Breaks/Replaces versioning, set it to
+    (<< 4:5.3.1-0ubuntu2) which is the first version providing the transitional
+    package.
+  * Set priority extra for ttf-oxygen-font-family transitional package,
+    fixes a lintian warning; all transitional packages must be
+    oldlibs/extra.
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:36:29 +0000
 
 oxygen-fonts (4:5.3.1-0ubuntu3) wily; urgency=medium
 
