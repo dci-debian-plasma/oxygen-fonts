@@ -9,3 +9,6 @@ override_dh_auto_install:
 
 	# remove cmake configuration files, useless for now
 	rm -rf $(CURDIR)/debian/fonts-oxygen/usr/lib/*/cmake/
+
+	# remove empty directories
+	rmdir --ignore-fail-on-non-empty --parents $(CURDIR)/debian/fonts-oxygen
