@@ -5,4 +5,7 @@ export QT_SELECT=5
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_install:
-	$(overridden_command) --destdir=debian/tmp
+	$(overridden_command)
+
+	# remove cmake configuration files, useless for now
+	rm -rf $(CURDIR)/debian/oxygen-fonts/usr/lib/*/cmake/

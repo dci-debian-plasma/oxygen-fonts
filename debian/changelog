@@ -1,5 +1,11 @@
 oxygen-fonts (4:5.4.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the transitional package ttf-oxygen-font-family, never part of a
+    stable Debian version:
+    - remove the forced destdir when installing
+    - remove the cmake configuration files from the install directory
+    - remove debian/install and debian/not-installed, no more useful now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 17:22:27 +0200
 
