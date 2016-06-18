@@ -9,6 +9,7 @@ oxygen-fonts (4:5.4.3-2) UNRELEASED; urgency=medium
   * Remove the extra qt5-qmake build dependency (qtbase5-dev is enough).
   * Migrate watch file to version 4, and stop watching unstable versions.
   * Bump Standards-Version to 3.9.8, no changes required.
+  * Update Vcs-* fields.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 17:22:27 +0200
 
