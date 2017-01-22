@@ -1,3 +1,12 @@
+oxygen-fonts (4:5.4.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * add-metainfo.patch: Add AppStream metainfo file
+  * Bump dh compat level
+  * Update homepage URL
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 22 Jan 2017 21:40:21 +0100
+
 oxygen-fonts (4:5.4.3-2) unstable; urgency=medium
 
   * Team upload.
