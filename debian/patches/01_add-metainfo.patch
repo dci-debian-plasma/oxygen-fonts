@@ -1,0 +1,57 @@
+From 4966db2c890762af3fa5d79ecb24e0c55e70d60a Mon Sep 17 00:00:00 2001
+From: Matthias Klumpp <matthias@tenstral.net>
+Date: Sun, 22 Jan 2017 21:32:32 +0100
+Subject: Add metainfo file
+
+---
+ CMakeLists.txt                    |  1 +
+ org.kde.oxygen-fonts.metainfo.xml | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 29 insertions(+)
+ create mode 100644 org.kde.oxygen-fonts.metainfo.xml
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 6de4020..499c0ca 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -64,3 +64,4 @@ set(fontFiles
+ )
+ 
+ install(FILES ${fontFiles} DESTINATION ${OXYGEN_FONT_INSTALL_DIR})
++install(FILES org.kde.oxygen-fonts.metainfo.xml DESTINATION ${CMAKE_INSTALL_METAINFODIR})
+diff --git a/org.kde.oxygen-fonts.metainfo.xml b/org.kde.oxygen-fonts.metainfo.xml
+new file mode 100644
+index 0000000..9833e44
+--- /dev/null
++++ b/org.kde.oxygen-fonts.metainfo.xml
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="utf-8"?>
++<component type="font">
++  <id>org.kde.oxygen-fonts</id>
++  <metadata_license>FSFAP</metadata_license>
++  <project_group>KDE</project_group>
++  <project_license>OFL-1.1 or GPL-3.0+</project_license>
++
++  <name>Oxygen Fonts</name>
++  <summary>A desktop/gui font family for integrated use with the KDE desktop</summary>
++
++  <description>
++    <p>
++      Oxygen is a font designed for a desktop/gui. It was built to be used with the KDE desktop.
++    </p>
++    <p>
++      The aim of this font project is to produce a family of freetype-specific desktop fonts whose
++      appearance will stay uniform under different screen render settings, unlike more
++      traditionally designed 'screen fonts' that have tended to be designed
++      for best legibility on the Windows GDI render engine.
++    </p>
++  </description>
++
++  <provides>
++    <font>Oxygen Sans Book</font>
++    <font>Oxygen Sans Bold</font>
++    <font>Oxygen Mono</font>
++  </provides>
++</component>
+-- 
+cgit v0.11.2
+
